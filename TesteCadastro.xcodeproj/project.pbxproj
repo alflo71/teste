@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF25304D29B63F040096DBD2 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF25304B29B63F040096DBD2 /* DataModel.xcdatamodeld */; };
+		EF25305B29B642110096DBD2 /* Client+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25305729B642110096DBD2 /* Client+CoreDataClass.swift */; };
+		EF25305C29B642110096DBD2 /* Client+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25305829B642110096DBD2 /* Client+CoreDataProperties.swift */; };
+		EF25305D29B642110096DBD2 /* Consultant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25305929B642110096DBD2 /* Consultant+CoreDataClass.swift */; };
+		EF25305E29B642110096DBD2 /* Consultant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25305A29B642110096DBD2 /* Consultant+CoreDataProperties.swift */; };
+		EF25306029B642560096DBD2 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25305F29B642560096DBD2 /* PersistenceController.swift */; };
+		EF25306229B660320096DBD2 /* ModelClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF25306129B660320096DBD2 /* ModelClientView.swift */; };
+		EFA9680D29B272D600234027 /* TesteCadastroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9680C29B272D600234027 /* TesteCadastroApp.swift */; };
+		EFA9680F29B272D600234027 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9680E29B272D600234027 /* ContentView.swift */; };
+		EFA9681129B272D800234027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA9681029B272D800234027 /* Assets.xcassets */; };
+		EFA9681529B272D800234027 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA9681429B272D800234027 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF25304C29B63F040096DBD2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		EF25305729B642110096DBD2 /* Client+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EF25305829B642110096DBD2 /* Client+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EF25305929B642110096DBD2 /* Consultant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Consultant+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EF25305A29B642110096DBD2 /* Consultant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Consultant+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EF25305F29B642560096DBD2 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		EF25306129B660320096DBD2 /* ModelClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelClientView.swift; sourceTree = "<group>"; };
+		EFA9680929B272D600234027 /* TesteCadastro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteCadastro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA9680C29B272D600234027 /* TesteCadastroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteCadastroApp.swift; sourceTree = "<group>"; };
+		EFA9680E29B272D600234027 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA9681029B272D800234027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA9681229B272D800234027 /* TesteCadastro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TesteCadastro.entitlements; sourceTree = "<group>"; };
+		EFA9681429B272D800234027 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA9680629B272D600234027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF25305629B641A20096DBD2 /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				EF25305729B642110096DBD2 /* Client+CoreDataClass.swift */,
+				EF25305829B642110096DBD2 /* Client+CoreDataProperties.swift */,
+				EF25305929B642110096DBD2 /* Consultant+CoreDataClass.swift */,
+				EF25305A29B642110096DBD2 /* Consultant+CoreDataProperties.swift */,
+				EF25305F29B642560096DBD2 /* PersistenceController.swift */,
+			);
+			name = ModelClass;
+			sourceTree = "<group>";
+		};
+		EF25306329B660390096DBD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF25306129B660320096DBD2 /* ModelClientView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFA9680029B272D600234027 = {
+			isa = PBXGroup;
+			children = (
+				EFA9680B29B272D600234027 /* TesteCadastro */,
+				EFA9680A29B272D600234027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA9680A29B272D600234027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9680929B272D600234027 /* TesteCadastro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA9680B29B272D600234027 /* TesteCadastro */ = {
+			isa = PBXGroup;
+			children = (
+				EF25306329B660390096DBD2 /* ViewModel */,
+				EF25305629B641A20096DBD2 /* ModelClass */,
+				EFA9680C29B272D600234027 /* TesteCadastroApp.swift */,
+				EFA9680E29B272D600234027 /* ContentView.swift */,
+				EF25304B29B63F040096DBD2 /* DataModel.xcdatamodeld */,
+				EFA9681029B272D800234027 /* Assets.xcassets */,
+				EFA9681229B272D800234027 /* TesteCadastro.entitlements */,
+				EFA9681329B272D800234027 /* Preview Content */,
+			);
+			path = TesteCadastro;
+			sourceTree = "<group>";
+		};
+		EFA9681329B272D800234027 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9681429B272D800234027 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA9680829B272D600234027 /* TesteCadastro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA9681829B272D800234027 /* Build configuration list for PBXNativeTarget "TesteCadastro" */;
+			buildPhases = (
+				EFA9680529B272D600234027 /* Sources */,
+				EFA9680629B272D600234027 /* Frameworks */,
+				EFA9680729B272D600234027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesteCadastro;
+			productName = TesteCadastro;
+			productReference = EFA9680929B272D600234027 /* TesteCadastro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA9680129B272D600234027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFA9680829B272D600234027 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = EFA9680429B272D600234027 /* Build configuration list for PBXProject "TesteCadastro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA9680029B272D600234027;
+			productRefGroup = EFA9680A29B272D600234027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA9680829B272D600234027 /* TesteCadastro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA9680729B272D600234027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA9681529B272D800234027 /* Preview Assets.xcassets in Resources */,
+				EFA9681129B272D800234027 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA9680529B272D600234027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF25306229B660320096DBD2 /* ModelClientView.swift in Sources */,
+				EF25305C29B642110096DBD2 /* Client+CoreDataProperties.swift in Sources */,
+				EF25305E29B642110096DBD2 /* Consultant+CoreDataProperties.swift in Sources */,
+				EF25305B29B642110096DBD2 /* Client+CoreDataClass.swift in Sources */,
+				EF25304D29B63F040096DBD2 /* DataModel.xcdatamodeld in Sources */,
+				EFA9680F29B272D600234027 /* ContentView.swift in Sources */,
+				EF25305D29B642110096DBD2 /* Consultant+CoreDataClass.swift in Sources */,
+				EFA9680D29B272D600234027 /* TesteCadastroApp.swift in Sources */,
+				EF25306029B642560096DBD2 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFA9681629B272D800234027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA9681729B272D800234027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFA9681929B272D800234027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TesteCadastro/TesteCadastro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesteCadastro/Preview Content\"";
+				DEVELOPMENT_TEAM = 7325YRVK97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alflo71.TesteCadastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA9681A29B272D800234027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TesteCadastro/TesteCadastro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesteCadastro/Preview Content\"";
+				DEVELOPMENT_TEAM = 7325YRVK97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alflo71.TesteCadastro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA9680429B272D600234027 /* Build configuration list for PBXProject "TesteCadastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA9681629B272D800234027 /* Debug */,
+				EFA9681729B272D800234027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA9681829B272D800234027 /* Build configuration list for PBXNativeTarget "TesteCadastro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA9681929B272D800234027 /* Debug */,
+				EFA9681A29B272D800234027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF25304B29B63F040096DBD2 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF25304C29B63F040096DBD2 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = EF25304C29B63F040096DBD2 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFA9680129B272D600234027 /* Project object */;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Client" representedClassName="Client" syncable="YES">
+        <attribute name="address" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <relationship name="originConsultant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Consultant" inverseName="originClient" inverseEntity="Consultant"/>
+    </entity>
+    <entity name="Consultant" representedClassName="Consultant" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="originClient" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Client" inverseName="originConsultant" inverseEntity="Client"/>
+    </entity>
+</model>
